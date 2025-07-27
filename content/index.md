@@ -1,6 +1,6 @@
 ---
-title: Welcome to Quartz
+title: Hi!
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Schön, dass du hier bist!
+Hier entsteht ein MatheWiki. Schau dich gerne um! Ich freu mich riesig über konstruktive Kritik!
