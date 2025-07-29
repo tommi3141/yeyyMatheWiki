@@ -2,5 +2,8 @@
 title: Hi!
 ---
 
-Schön, dass du hier bist!
-Hier entsteht ein MatheWiki. Schau dich gerne um! Ich freu mich riesig über konstruktive Kritik!
+Schön, dass du hier bist!  
+Diese "MatheWiki" befindet sich seit kurzem im Aufbau.  
+Schau dich gerne um! Ich freu mich riesig über konstruktive Kritik!  
+[[Kontakt]]  
+
