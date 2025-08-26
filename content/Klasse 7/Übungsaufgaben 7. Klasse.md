@@ -64,13 +64,14 @@
 >> 4. #todo
 
 
-
 > [!note] Aufgabe 5
 > ## 🧩 5. Terme und Gleichungen
 > 1. Vereinfache: $3x + 5 - 2x + 7$
 > 2. Löse die Gleichung: $4x - 7 = 13$
 > 3. Stelle einen Term auf: Das Dreifache einer Zahl $x$, vermindert um 4.
 > 4. Löse: $2(x + 3) = 16$
+> 
+> Mehr aufgaben dieser Art gibt es hier: [[Gleichungen nach x auflösen]]
 > 
 >> [!success]- Lösung anzeigen:
 >> 1. $x + 12$
