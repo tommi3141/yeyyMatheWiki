@@ -1,10 +1,11 @@
 ---
 tags:
   - Basiswissen
+  - Aufgaben
 ---
 
 
-> [!warning] Achtung
+> [!warning] Obacht!
 > Die Lösungen wurden noch nicht sorgfältig geprüft. Wenn ihr auf andere Ergebnisse kommt als in der Lösunge, gebt mir Bescheid! [[Kontakt]]
 
 
@@ -33,6 +34,7 @@ tags:
 >> 9. $x = -7$  
 >> 10. $x = -8$  
 >> 
+
 
 
 > [!note]+ Aufgabe 2
@@ -87,6 +89,7 @@ tags:
 >> 9. $x = 2$  
 >> 10. $x = 10$  
 >> 
+
 
 > [!note]+ Aufgabe 4
 > 1. $2(x - 3) = 4x + 5$  
