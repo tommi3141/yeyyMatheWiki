@@ -8,5 +8,6 @@ tsconfig.tsbuildinfo
 .claudian
 .quartz-cache
 private/
+Private/
 .replit
 replit.nix

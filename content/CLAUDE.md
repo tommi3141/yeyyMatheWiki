@@ -35,19 +35,23 @@ ich was zu tun ist und verweise an Wurzel, statt es selbst zu ändern.
 dafür, dass es nicht auf der Website landet. Freigegeben wird ausschließlich durch den Nutzer, indem
 er `draft: false` setzt. Ich ändere `draft` niemals eigenständig von `true` auf `false`.
 
-## Zielgruppe und Ton
+## Kontext-Ordner (immer zuerst lesen)
 
-Geschrieben wird für Schüler, die Mathe oft als frustrierend erleben. Deshalb:
+`Private/Kontext/` ist die dauerhafte Gedächtnisschicht dieses Vaults und hat bei allem
+Inhaltlichen **Vorrang vor dieser Datei**.
 
-- **Du-Ansprache**, ermutigend, auf Augenhöhe. Nie herablassend, nie „trivial" oder „offensichtlich".
-- **Motivation vor Formel.** Erst warum man das braucht oder woher es kommt, dann die Regel.
-  Vorbild: „Eigentlich musst du dir die Binomischen Formeln gar nicht merken — du kannst sie dir
-  jederzeit durch Ausklammern selbst herleiten. Versuch das am besten mal selbst."
-- **Zum Selbstdenken einladen**, statt die Lösung sofort zu präsentieren. Deshalb sind Beispiele und
-  Lösungen eingeklappt.
-- Rechenwege **vollständig** zeigen, keine Zwischenschritte unterschlagen. Genau dort steigen
-  Schüler aus.
-- Sprache: **Deutsch**.
+- `Private/Kontext/Schreibstil.md`: Ton, Didaktik, Callout-Grammatik, KaTeX-Formatierung
+- `Private/Kontext/Zielgruppe.md`: für wen geschrieben wird
+- `Private/Kontext/Kontext.md`: wie der Ordner funktioniert
+
+**Bevor ich Inhalte schreibe oder überarbeite, lese ich `Schreibstil.md` und `Zielgruppe.md`.**
+Bei rein organisatorischen Aufgaben (verschieben, Todos, Tags) nicht nötig.
+
+Rangfolge bei Widersprüchen: aktuelle Chat-Anweisung > Kontext-Ordner > diese Datei.
+Widersprüche spreche ich an, statt still eine Seite zu wählen.
+
+Redundanz gibt es absichtlich auch als Skill unter `.claude/skills/kontext/`, damit der
+Ordner auch dann gefunden wird, wenn diese Datei mal geleert wird.
 
 ## Frontmatter-Schema
 
@@ -84,64 +88,6 @@ Vier Achsen, kontrolliertes Vokabular. Neue Tags nur nach Rückfrage.
 - `Aufgaben` statt `Übungen` (nicht beides parallel).
 - Keine Inline-Tags in Callout-Titeln (`> [!note] #Aufgabe`). Der Notiztyp steht im Frontmatter.
 
-## Callout-Grammatik
-
-Das etablierte didaktische Muster dieses Vaults. Bitte konsequent so weiterführen:
-
-```markdown
-> [!info]+ Potenzregel
-> Für $f(x) = x^n$ gilt:
-> $$ f'(x) = n \cdot x^{n-1} $$
->
->> [!tip]- Beispiel anzeigen:
->> $f(x) = x^4$
->>
->> **Lösung:**
->> $$ f'(x) = 4x^3 $$
-```
-
-```markdown
-> [!note] Aufgabe 1
-> Bestimme die Ableitung von
-> $$ f(x) = \sin(3x^2) $$
->
->> [!success]- Lösung anzeigen:
->> ... vollständiger Rechenweg ...
->> $$ \boxed{f'(x) = 6x \cdot \cos(3x^2)} $$
-```
-
-- `[!info]+` für Regeln und Definitionen — **aufgeklappt**.
-- `[!tip]-` für Beispiele, `[!success]-` für Lösungen — **eingeklappt**, damit erst selbst gedacht wird.
-- Endergebnisse mit `\boxed{...}` hervorheben.
-
-## Mathe-Formatierung
-
-- Ausschließlich `$...$` (inline) und `$$...$$` (abgesetzt). **Nie** `\(...\)` oder `\[...\]`.
-  Gerendert wird mit KaTeX.
-- **Bei mehrzeiligen Formeln steht `$$` immer allein auf einer eigenen Zeile.** Das ist keine
-  Kosmetik: Schreibt man `$$\begin{align}`, wirft der Parser `\begin{align}` als Metadaten weg und
-  zieht anschließend den Fließtext bis zum nächsten `$$` mit in die Formel. Ebenso darf eine
-  Textzeile nicht mit `$$` enden, um einen Formelblock zu öffnen (`mit $$`).
-
-  ```markdown
-  Richtig:                         Falsch:
-  Mit                              mit $$
-                                   \begin{align} ...
-  $$                               \end{align}$$
-  \begin{align}
-  a &= b \\
-  c &= d
-  \end{align}
-  $$
-  ```
-- Zeilenumbrüche mit `\\` funktionieren nur innerhalb einer Umgebung wie `\begin{aligned}...\end{aligned}`,
-  nicht in einem nackten `$$`-Block.
-- Keine Unicode-Sonderzeichen im Mathe-Modus: `x^2` statt `x²`, und Umlaute nur innerhalb von `\text{}`
-  oder besser ganz vermeiden.
-- Funktionsnamen als Operatoren: `\sin`, `\cos`, `\ln` — nicht `\text{sin}`.
-- Dezimalkomma im deutschen Format: `0{,}75`.
-- Einheiten in `\text{}`: `40\,\text{cm}^2`.
-
 ## Struktur
 
 ```
@@ -171,8 +117,10 @@ nie auf der Website. Alles andere schon, sofern nicht `draft: true`.
   Vorlage dafür in `Extra/Templates/Template, 0Default.md`.
 - Vor dem Löschen oder Überschreiben von Dateien nachfragen.
 - Beim Erstellen oder Verschieben von Dateien kurz begründen warum.
-- Wenn der Nutzer „merk dir das" sagt: Schreib- und Stilregeln kommen in diese CLAUDE.md,
-  inhaltliche Erkenntnisse in die passende Notiz.
+- Wenn der Nutzer „merk dir das" sagt: Schreib- und Stilregeln kommen nach
+  `Private/Kontext/Schreibstil.md`, Angaben zur Leserschaft nach `Private/Kontext/Zielgruppe.md`,
+  Vault-Organisation in diese CLAUDE.md, inhaltliche Erkenntnisse in die passende Notiz.
+  In den Kontext-Ordner schreibe ich nur nach Absprache.
 - **Niemals `npx quartz sync` oder Git-Befehle ausführen.** Veröffentlichen macht der Nutzer
   gemeinsam mit Wurzel, und nur nach ausdrücklicher Ansage.
 
