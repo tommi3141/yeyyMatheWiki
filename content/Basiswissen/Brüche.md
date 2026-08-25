@@ -16,3 +16,6 @@ draft: "true"
 > Multiplikation: Zähler $\cdot$ Zähler, Nenner $\cdot$ Nenner
 > 
 > Division: $$\frac{a}{b} : \frac{c}{d} = \frac{a}{b} \cdot \frac{d}{c}$$
+
+
+Aufgaben zum Bruchrechnen gibt es zB hier: 
