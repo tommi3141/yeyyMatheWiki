@@ -16,13 +16,11 @@ mich riesig über konstruktive Kritik: [[Kontakt]]
 > verwenden solltest — statt dich zu verzetteln.
 
 > [!tip]+ Wenn dir die Grundlagen fehlen
-> Die meisten Fehler in Oberstufenklausuren sind keine Oberstufenfehler. Es sind Vorzeichen, Brüche
-> und Klammern. Wenn du das Gefühl hast, dass es genau daran hakt, fang hier an:
->
-> - [[Klammern und Ausklammern|Ausklammern]] — die wichtigste Technik überhaupt
-> - [[Binomische Formeln]] — die du dir dank Ausklammern nicht mal merken musst
-> - [[Äquivalenzumformung]] — was du mit einer Gleichung machen darfst
-> - [[Potenzgesetze]] und [[Wurzeln]]
+> Die meisten Fehler in Oberstufenklausuren sind keine Oberstufenfehler. Es sind Vorzeichen, Brüche und Klammern. Wenn du das Gefühl hast, dass es genau daran hakt, fang hier an:
+> - [[Äquivalenzumformung]] - ohne das geht garnichts in Mathe!
+> - [[Klammern und Ausklammern|Ausklammern]] - super wichtige Technik 
+> - [[Binomische Formeln]] - brauchst du immer wieder
+> - [[Potenzgesetze]] und [[Wurzeln]] 
 
 ## Beliebte Themen
 

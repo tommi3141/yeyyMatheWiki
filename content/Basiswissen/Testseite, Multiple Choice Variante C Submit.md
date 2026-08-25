@@ -89,7 +89,12 @@ hier die empfindlichste der drei Varianten.
 .mcqC:has(.opt input:checked) .hint { display: none; }
 </style>
 
-# Variante C: erst wählen, dann prüfen
+# Multiple Choice Quiz
+## Variante C: erst wählen, dann prüfen
+
+
+
+Das ist nur eine Seite um das Userinterface zu testen
 
 Hier bekommst du die Rückmeldung **nicht** sofort. Du wählst erst eine Antwort und
 drückst dann auf den Button. Das zwingt zu einer echten Entscheidung, statt sich durch

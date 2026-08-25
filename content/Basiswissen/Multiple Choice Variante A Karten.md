@@ -5,7 +5,7 @@ tags:
   - Algebra
   - Aufgaben
   - Interaktiv
-draft: false
+draft: true
 created: 2026-08-25
 ---
 
