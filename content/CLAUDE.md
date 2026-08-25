@@ -113,8 +113,9 @@ nie auf der Website. Alles andere schon, sofern nicht `draft: true`.
 - Eine Notiz pro Thema. Aufgabensammlungen dürfen größer sein, gehören aber in eine eigene Notiz
   (Muster: `Ableitungsregeln.md` und `Ableitungsregeln Übungen.md`).
 - Bevor eine Notiz veröffentlicht wird: Quellen angegeben, Tags vollständig, im richtigen Ordner.
-- Übernommene Inhalte immer mit Quelle und Lizenz kennzeichnen (z. B. schule-bw.de, CC BY 4.0).
-  Vorlage dafür in `Extra/Templates/Template, 0Default.md`.
+- Übernommene Inhalte immer mit Quelle und Lizenz kennzeichnen. Der vollständige Ablauf
+  (Lizenz prüfen, Extraktion gegenprüfen, Footer setzen, Share-Alike beachten) steht in
+  `Private/Kontext/Schreibstil.md` unter „Quellen und Lizenzen".
 - Vor dem Löschen oder Überschreiben von Dateien nachfragen.
 - Beim Erstellen oder Verschieben von Dateien kurz begründen warum.
 - Wenn der Nutzer „merk dir das" sagt: Schreib- und Stilregeln kommen nach
