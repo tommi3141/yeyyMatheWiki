@@ -1,10 +1,11 @@
 ---
 tags:
-  - Basiswissen
   - Mittelstufe
+  - Aufgaben
+draft: false
 ---
 
-> [!note] #Aufgabe
+> [!note] Aufgabe 1
 > ## 🔢 Zahlen und Rechnen
 > 1. Berechne: $(-7) + 12 - (-3)$
 > 2. Rechne in einen Bruch um: $0{,}75$
@@ -19,7 +20,7 @@ tags:
 >> 4. $0{,}25 \cdot 120 = 30$ €
 >> 5. $0{,}02 \cdot 400 = 8$ €
 
-> [!note] #Aufgabe
+> [!note] Aufgabe 2
 > ## 📐 Geometrie
 > 1. Wie groß ist die Winkelsumme in einem Viereck?
 > 2. Ein Dreieck hat die Winkel $45^\circ$ und $75^\circ$. Wie groß ist der dritte Winkel?
@@ -37,7 +38,7 @@ tags:
 >> 6. $A = a \cdot h = 8 \cdot 5 = 40\,\text{cm}^2$  
 >> 7. Eckpunkte: $(2|3)$, $(8|3)$, $(8|12)$, $(2|12)$  
 
-> [!note] #Aufgabe
+> [!note] Aufgabe 3
 > ## 📊 Daten und Zufall
 > 1. Berechne den Mittelwert: $3$, $5$, $7$, $10$, $5$
 > 2. Erstelle ein Säulendiagramm zu den Daten: Äpfel: 5, Birnen: 3, Kirschen: 7
@@ -46,13 +47,21 @@ tags:
 > 
 >> [!success]- Lösung anzeigen:  
 >> 1. $$\frac{3+5+7+10+5}{5} = \frac{30}{5} = 6$$  
->> 2. Diagramm: (Lösung wird noch erstellt #todo)  
->> <br>  
+>> 2. Auf die x-Achse kommen die drei Sorten, auf die y-Achse die Anzahl (0 bis 7, in Schritten von 1).
+>>    Alle Säulen sind gleich breit und haben gleiche Abstände. Die Höhen:
+>>
+>>    | Sorte | Höhe der Säule |
+>>    | --- | --- |
+>>    | Äpfel | 5 |
+>>    | Birnen | 3 |
+>>    | Kirschen | 7 |
+>>
+>>    Die Kirschen-Säule ist also die höchste, die Birnen-Säule die niedrigste.
 >> 3. Bei einem Würfel mit 6 Seiten gibt es 3 gerade Zahlen $\{2,4,6\}$. Um die Wahrscheinlichkeit $P$ zu berechnen teilen wir die Anzahl der "günstigen" Ergebnisse durch die Anzahl der möglichen Ergebnisse.  
 >>    $$P = \frac{\text{ Anzahl der geraden Zahlen}}{\text{Anzahl aller Ergebnisse}} = \frac{3}{6} = \frac{1}{2}$$  
 >> 4. $$P = \frac{\text{ Anzahl der blauen Kugeln}}{\text{Anzahl aller Kugeln}}=  \frac{2 }{6} = \frac{1}{3}$$  
 
-> [!note] #Aufgabe
+> [!note] Aufgabe 4
 > ## 📈 Funktionaler Zusammenhang
 > 1. Ein Auto fährt mit 60 km/h. Wie weit kommt es in 3 h?
 > 2. Ist die Zuordnung $x \mapsto 3x$ proportional?
@@ -64,9 +73,17 @@ tags:
 >> 1. $s = v \cdot t = 60 \cdot 3 = 180$ km
 >> 2. Ja, da es sich um eine lineare Zuordnung mit dem Ursprung handelt.
 >> 3. $3 \cdot 5 = 15$ €, $5 \cdot 5 = 25$ €, $8 \cdot 5 = 40$ €
->> 4. #todo
+>> 4. Am einfachsten geht das über eine Wertetabelle. Setz für $x$ der Reihe nach die Zahlen von
+>>    $0$ bis $5$ ein und rechne $y = 2x$ aus:
+>>
+>>    | $x$ | 0 | 1 | 2 | 3 | 4 | 5 |
+>>    | --- | --- | --- | --- | --- | --- | --- |
+>>    | $y$ | 0 | 2 | 4 | 6 | 8 | 10 |
+>>
+>>    Diese Punkte trägst du ein und verbindest sie. Es entsteht eine **Gerade durch den
+>>    Ursprung**: Pro Schritt nach rechts gehst du zwei nach oben — das ist die Steigung $2$.
 
-> [!note] #Aufgabe
+> [!note] Aufgabe 5
 > ## 🧩 Terme und Gleichungen
 > 1. Vereinfache: $3x + 5 - 2x + 7$
 > 2. Löse die Gleichung: $4x - 7 = 13$

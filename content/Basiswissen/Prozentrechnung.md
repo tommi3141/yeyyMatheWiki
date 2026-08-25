@@ -1,10 +1,9 @@
 ---
-title: Prozentrechnung
 tags:
-  - Basiswissen
   - Mittelstufe
+  - Algebra
   - Formelsammlung
-draft: "true"
+draft: true
 ---
 > [!info]+ Basiswissen
 > ## Prozentrechnung

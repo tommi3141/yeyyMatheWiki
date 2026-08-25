@@ -1,8 +1,9 @@
 ---
 tags:
-  - Basiswissen
   - Mittelstufe
+  - Algebra
   - Formelsammlung
+draft: false
 ---
 Die Binomischen Formeln sind dafür da, dass du gewisse Aufgaben etwas schneller rechnen kannst. In vielen Situation sind sie wirklich hilfreich! Aber ehrlich gesagt: Eigentlich musst du dir die Binomischen Formeln nicht merken. Du kannst sie dir jederzeit durch [[Klammern und Ausklammern|Ausklammern]] selbst herleiten. Versuche das am besten mal selbst. 
 

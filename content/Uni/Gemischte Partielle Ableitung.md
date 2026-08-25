@@ -1,8 +1,10 @@
 ---
 tags:
-draft: "true"
+  - Uni
+  - Analysis
+  - Aufgaben
+draft: true
 created: 2025-09-22
-aliases:
 ---
 Bevor draft = false gesetzt wird
 - [ ] Footer Bearbeiten 
@@ -35,14 +37,16 @@ Bevor draft = false gesetzt wird
 > > $$ \boxed{f_{xyz}(x, y, z) = e^{xy}(1 + xy)} $$
 
 > [!note] Aufgabe 2
-> Berechne die partiellen Ableitungen für die Funktion $$f(x,y) = x² + y² +xy $$
+> Berechne die partiellen Ableitungen für die Funktion $$f(x,y) = x^2 + y^2 +xy $$
 >> [!success]- Lösung anzeigen:
->> $$\begin{align}
+>> $$
+>> \begin{align}
 >> f_x(x,y) &= 2x + y \\
 >> f_y(x,y) &= 2y + x \\
 >> f_{xx}(x,y) &= 2 \\
 >> f_{yy}(x,y) &= 2
->> \end{align}$$
+>> \end{align}
+>> $$
 
 > [!note] Aufgabe 3
 > 
@@ -70,7 +74,7 @@ Bevor draft = false gesetzt wird
 >> - $\frac{\partial}{\partial y}[3x^2 \cdot e^y] = 3x^2 \cdot e^y$
 >> - $\frac{\partial}{\partial y}[2x] = 0$
 >> - $\frac{\partial}{\partial y}[z \cdot y \cdot e^{xy}] = z \cdot e^{xy} + z \cdot y \cdot e^{xy} \cdot x = z \cdot e^{xy}(1 + xy)$ 
->> 	([[Produktregel]] + [[Kettenregel]], und dann [[Ausklammern]])
+>> 	([[Ableitungsregeln|Produktregel]] + [[Ableitungsregeln|Kettenregel]], und dann [[Ausklammern]])
 >> 
 >> **Zusammengesetzt ergibt das:** $f_{xy}(x,y,z) = 3x^2 \cdot e^y + z \cdot e^{xy}(1 + xy)$
 >> 
@@ -90,7 +94,7 @@ Bevor draft = false gesetzt wird
 >> 
 >> 
 
-[[Partielle Ableitungen Draft]]
+[[Partielle Ableitungen]]
 
 
 

@@ -1,7 +1,9 @@
 ---
 tags:
-  - Basiswissen
+  - Mittelstufe
+  - Algebra
   - Aufgaben
+draft: false
 ---
 
 

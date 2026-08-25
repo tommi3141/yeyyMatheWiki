@@ -1,8 +1,10 @@
 ---
 tags:
-draft: "true"
+  - Uni
+  - Analysis
+  - Erklärung
+draft: true
 created: 2025-09-22
-aliases:
 ---
 Bevor draft = false gesetzt wird
 - [ ] Footer Bearbeiten 

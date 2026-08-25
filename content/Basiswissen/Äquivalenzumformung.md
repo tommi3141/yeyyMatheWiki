@@ -1,8 +1,11 @@
 ---
-title: Äquivalenzumformung
 tags:
-  - Basiswissen
   - Mittelstufe
+  - Algebra
+  - Aufgaben
+draft: false
+aliases:
+  - Gleichungen umformen
 ---
 
 # Aufgaben

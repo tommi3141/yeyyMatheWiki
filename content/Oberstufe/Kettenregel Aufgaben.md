@@ -1,4 +1,10 @@
-
+---
+tags:
+  - Oberstufe
+  - Analysis
+  - Aufgaben
+draft: false
+---
 Hier gibt es noch mehr Aufgaben:  [[Ableitungsregeln Übungen]]  
 
 > [!note] Aufgabe 1
@@ -22,7 +28,7 @@ Hier gibt es noch mehr Aufgaben:  [[Ableitungsregeln Übungen]]
 >> $$
 >> v(x) = x^2 + \text{sin}(x) \quad \Rightarrow \quad v'(x) = 2x + \text{cos}(x)
 >> $$
->> Die [[Kettenregel]] lautet "äußere mal innere Ableitung":
+>> Die [[Ableitungsregeln|Kettenregel]] lautet "äußere mal innere Ableitung":
 >> $$
 >> f'(x) = u'(v(x)) \cdot v'(x)
 >> $$

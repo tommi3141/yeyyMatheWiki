@@ -1,9 +1,10 @@
 ---
-draft: "false"
 tags:
-  - GeoGebra
-  - Analysis
   - Oberstufe
+  - Analysis
+  - Erklärung
+  - GeoGebra
+draft: false
 ---
 
 # Trigonometrische Funktionen

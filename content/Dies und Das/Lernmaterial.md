@@ -1,3 +1,8 @@
+---
+tags:
+  - Übersicht
+draft: false
+---
 Es gibt eine riesige Menge an gutem Lernmaterial online. Falls es dir mit dieser Website keinen Spaß macht zu lernen, findest du vielleicht hier alternatives Lernmaterial, das dir weiterhilft.  
 Ich kenne bei weitem nicht alles, was es an Lernmaterial gibt. Also bitte: falls du gute Quellen kennst, schicke mir gerne eine Nachricht ([[Kontakt]]). 
 

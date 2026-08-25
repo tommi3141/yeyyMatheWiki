@@ -1,9 +1,11 @@
 ---
-title: Wurzeln
 tags:
-  - Basiswissen
   - Mittelstufe
+  - Algebra
   - Formelsammlung
+draft: false
+aliases:
+  - Wurzelgesetze
 ---
 > [!info]+ Basiswissen
 > # Wurzelgesetze

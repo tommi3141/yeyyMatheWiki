@@ -1,10 +1,9 @@
 ---
-title: Brüche
 tags:
-  - Basiswissen
   - Mittelstufe
+  - Algebra
   - Formelsammlung
-draft: "true"
+draft: true
 ---
 > [!info]+ Basiswissen
 > ## Brüche

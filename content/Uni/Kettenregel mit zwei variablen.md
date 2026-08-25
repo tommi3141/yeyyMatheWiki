@@ -1,4 +1,10 @@
-
+---
+tags:
+  - Uni
+  - Analysis
+  - Erklärung
+draft: false
+---
 ## Beispiel: Partielle Ableitung mit Kettenregel
 
 Gegeben sei die Funktion:
@@ -11,7 +17,7 @@ Wir schreiben dies als Verkettung zweier Funktionen $$f(x, y) = u(v(x, y))$$
 - Äußere Funktion u: $$u(z) = \frac{1}{z} \quad \Rightarrow \quad u'(z) = -\frac{1}{z^2}$$
 - Innere Funktion v: $$v(x, y) = x^2 + y^2 \quad \Rightarrow \quad \frac{\partial v}{\partial x} = 2x$$
 
-Die [[Kettenregel mit zwei variablen]] lautet "äußere mal innere Ableitung":
+Die [[Ableitungsregeln|Kettenregel]] lautet "äußere mal innere Ableitung":
 $$
 \frac{\partial f}{\partial x} = u'(v(x, y)) \cdot \frac{\partial v}{\partial x}
 $$

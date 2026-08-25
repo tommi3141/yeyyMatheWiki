@@ -1,9 +1,12 @@
 ---
 title: Ausklammern
 tags:
-  - Basiswissen
   - Mittelstufe
-draft: "false"
+  - Algebra
+  - Formelsammlung
+draft: false
+aliases:
+  - Ausklammern
 ---
 
 > [!info]+ Basiswissen

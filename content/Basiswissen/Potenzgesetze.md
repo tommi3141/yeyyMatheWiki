@@ -1,10 +1,12 @@
 ---
-title: Potenzgesetze
 tags:
-  - Basiswissen
   - Mittelstufe
+  - Algebra
   - Formelsammlung
   - Video
+draft: false
+aliases:
+  - Potenzregeln
 ---
 Falls du keine Lust hast zu lesen: unten ist das Video, indem alles erklärt wird. 
 
@@ -42,7 +44,7 @@ Falls du keine Lust hast zu lesen: unten ist das Video, indem alles erklärt wir
 > $$
 > 
 > $$
-> a^0 = 1 \quad (\text{für } a \neq 0)
+> a^0 = 1 \quad (a \neq 0)
 > $$
 > 
 > $$

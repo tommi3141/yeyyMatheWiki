@@ -1,11 +1,11 @@
 ---
 tags:
-  - Stochastik
-  - GeoGebra
   - Oberstufe
-draft: "false"
+  - Stochastik
+  - Erklärung
+  - GeoGebra
+draft: false
 created: 2025-09-23
-aliases:
 ---
 
 Mit einem Histogramm kann die Wahrscheinlichkeitsverteilung von Zufallsexperimenten übersichtlich dargestellt werden.
