@@ -122,8 +122,11 @@ nie auf der Website. Alles andere schon, sofern nicht `draft: true`.
   `Private/Kontext/Schreibstil.md`, Angaben zur Leserschaft nach `Private/Kontext/Zielgruppe.md`,
   Vault-Organisation in diese CLAUDE.md, inhaltliche Erkenntnisse in die passende Notiz.
   In den Kontext-Ordner schreibe ich nur nach Absprache.
-- **Niemals `npx quartz sync` oder Git-Befehle ausführen.** Veröffentlichen macht der Nutzer
-  gemeinsam mit Wurzel, und nur nach ausdrücklicher Ansage.
+- **Niemals `npm run publish`, `npx quartz sync` (veraltet, Force-Push) oder andere Git-Befehle zum
+  Veröffentlichen ausführen.** Veröffentlichen macht der Nutzer gemeinsam mit Wurzel, und nur nach
+  ausdrücklicher Ansage. Die Foto-Pipeline arbeitet ausschließlich über Branch + Pull Request.
+- Für die Pipeline (headless, ohne Zugriff auf `Private/`) liegt eine vorläufige Kurzfassung der
+  Konventionen in `Extra/Kontext/`, Vorlagen in `Extra/Templates/`, Fotos in `Extra/Eingang/`.
 
 ## Bekannte Baustellen
 

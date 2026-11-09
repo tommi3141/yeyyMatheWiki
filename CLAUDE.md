@@ -30,11 +30,13 @@ Ausnahme: Wenn Zirkel-Tooling (z.B. Claude-Skills unter `content/.claude/`) den 
 - `npm test` — run all tests (`tsx --test`, native Node test runner)
 - Run a single test file: `npx tsx --test quartz/util/path.test.ts`
 
-### Publishing updates: `npx quartz sync`
+### Publishing updates: `npm run publish`
 
-This is how the owner publishes new/edited content to the live site. It runs `git add . && git commit -m "Quartz sync: <timestamp>"`, then `git pull origin v4`, then **`git push -uf origin <current-branch>`** — note the `-f`, this is a **force push**.
+This is how the owner publishes new/edited content to the live site ([scripts/publish.mjs](scripts/publish.mjs)). It runs `git add -A && git commit`, then `git pull --rebase --autostash origin <current-branch>` (picks up e.g. merged pull requests from the snap-math pipeline), then a normal `git push -u origin <current-branch>`. No force push; on rebase conflicts it aborts without pushing.
 
-**Never run `npx quartz sync` (or an equivalent manual commit+force-push) without the user's explicit go-ahead first, even if asked to "push the updates" or "publish this."** Always confirm before running it.
+**Do not use `npx quartz sync`.** It force-pushes (`git push -uf`), pulls with `-X ours`, and moves `content/` out of the way during the pull, so changes merged on GitHub (e.g. agent pull requests) get silently reverted or overwritten.
+
+Publishing is outward-facing (the site goes live): confirm with the user before running `npm run publish` or any manual push, even if asked to "push the updates". The pipeline agent must never publish, never force-push, and never set `draft: false`.
 
 Formatting: no semicolons, 100 char print width, trailing commas everywhere (see [.prettierrc](.prettierrc)).
 
