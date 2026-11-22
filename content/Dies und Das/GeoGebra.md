@@ -37,6 +37,7 @@ direkt im Browser bedienen, ohne irgendetwas zu installieren.
 ## Applets auf dieser Website
 
 - [[Differenzenquotient]] — hier siehst du, wie aus der mittleren Änderungsrate die momentane wird
+- [[Scheitelform]] — mit drei Reglern die Parabel verschieben und strecken
 - [[Funktionsterm aufstellen]]
 - [[Histogramm]]
 

@@ -1,0 +1,21 @@
+.ggb-embed {
+  width: 100%;
+  max-width: 100%;
+  margin: 1rem 0;
+  border: 1px solid var(--lightgray);
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fff;
+
+  .ggb-applet {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ggb-error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4e4e4e;
+  }
+}

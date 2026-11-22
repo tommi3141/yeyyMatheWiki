@@ -15,6 +15,8 @@ Der Stoff etwa ab Klasse 7: Terme, Gleichungen, Funktionen. Hier passiert der Sc
 
 ## Themen
 
+- **[[Scheitelform]]** — Parabeln verschieben, strecken und den Scheitel direkt ablesen,
+  mit interaktivem GeoGebra-Applet.
 - **[[Gleichungen nach x auflösen]]** — Aufgaben mit Lösungen zum Selbstüben.
 - **[[Übungsaufgaben 7. Klasse]]** — gemischte Aufgaben quer durch alle Bereiche: Zahlen,
   Geometrie, Daten und Zufall, Funktionen, Terme und Gleichungen. Gut geeignet, um herauszufinden,

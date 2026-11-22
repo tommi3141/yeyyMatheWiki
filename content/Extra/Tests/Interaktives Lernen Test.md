@@ -75,3 +75,8 @@ draft: "true"
 </div>
 
 <button onclick="openFullscreen()">Vollbild</button>
+
+
+## Lokale GeoGebra-Datei (Quartz-Plugin)
+
+![[scheitelform.ggb]]
