@@ -98,6 +98,7 @@ content/
 ├── Oberstufe/          inhaltlicher Schwerpunkt
 ├── Uni/
 ├── Dies und Das/       Kontakt, Lernmaterial-Empfehlungen
+├── GeoGebra/           .ggb-Dateien für eingebettete Applets
 ├── Extra/              Templates und Tests (NICHT im Build)
 ├── Private/            Todos, Arbeitsnotizen (NICHT im Build)
 └── downloads/          PDFs zum Herunterladen
@@ -105,6 +106,30 @@ content/
 
 `Extra`, `Private` und `.obsidian` stehen in den `ignorePatterns` von `quartz.config.ts` und landen
 nie auf der Website. Alles andere schon, sofern nicht `draft: true`.
+
+## GeoGebra-Applets einbinden
+
+GeoGebra-Applets werden **nicht** mehr über Links oder iframes zu geogebra.org eingebunden, sondern
+als lokale Datei über ein eigenes Quartz-Plugin:
+
+1. Die `.ggb`-Datei liegt in `GeoGebra/`. Der Dateiname muss im Vault eindeutig sein.
+2. In der Notiz steht `![[datei.ggb]]` in einer eigenen Zeile. Mit `![[datei.ggb|860x620]]` gebe
+   ich das Seitenverhältnis an, wenn es nicht dem Standard 800×500 entspricht.
+3. Die Notiz bekommt den Tag `GeoGebra` und wird unter „Applets auf dieser Website“ in
+   `Dies und Das/GeoGebra.md` verlinkt.
+
+Wichtig:
+- Das Applet erscheint **nur auf der Website**, in Obsidian sieht man bloß den Embed-Link. Prüfen
+  geht nur über die lokale Vorschau (`npx quartz build --serve`, Sache von Wurzel).
+- Die Textspalte auf der Website ist etwa 620 px breit. Neue Applets entwerfe ich für diese Breite,
+  damit sie scharf und vollständig dargestellt werden.
+- Skripte in einer `.ggb`-Datei dürfen keine Funktion aufrufen, bevor das globale JavaScript
+  geladen ist (sonst „… is not defined“). Aufrufe in `onUpdate` daher absichern, z.B.
+  `try { recenter(); } catch (e) {}`.
+- Bestehende Links/iframes auf geogebra.org ersetze ich nur nach Rückfrage, weil dafür die
+  `.ggb`-Datei vorhanden sein muss. Fremde Applets von geogebra.org bleiben Links bzw. iframes,
+  mit Quelle und Lizenz (siehe „Quellen und Lizenzen“).
+- Am Plugin selbst (`quartz/plugins/transformers/geogebra.ts`) ändere ich nichts, das macht Wurzel.
 
 ## Regeln für die Arbeit in diesem Vault
 
